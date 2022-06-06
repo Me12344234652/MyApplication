@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="form_id">Id</string>
+    <string name="form_name">Name</string>
+    <string name="form_author">Author</string>
+    <string name="form_place">Place</string>
+    <string name="todo">TODO</string>
+    <string name="please_enter_your_phone">Please enter your phone.</string>
+</resources>
