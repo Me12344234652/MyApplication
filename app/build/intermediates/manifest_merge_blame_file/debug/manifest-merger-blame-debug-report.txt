@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:6:5-68
+11-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:6:22-66
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:8:5-78
+13-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:8:22-76
+14
+15    <application
+15-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:10:5-40:19
+16        android:allowBackup="true"
+16-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:11:13-39
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\widzi\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:12:13-47
+20        android:label="@string/app_name"
+20-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:13:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:14:13-58
+22        android:supportsRtl="true"
+22-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:15:13-39
+23        android:testOnly="true"
+24        android:theme="@style/Theme.MyApplication"
+24-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:16:13-55
+25        android:usesCleartextTraffic="true" >
+25-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:17:13-48
+26        <activity
+26-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:19:9-21:61
+27            android:name="com.example.myapplication.Call"
+27-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:20:17-37
+28            android:parentActivityName="com.example.myapplication.MainActivity" />
+28-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:21:17-59
+29        <activity
+29-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:22:9-24:53
+30            android:name="com.example.myapplication.UpdateBook"
+30-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:23:17-43
+31            android:parentActivityName="com.example.myapplication.List" />
+31-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:24:17-51
+32        <activity
+32-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:25:9-27:53
+33            android:name="com.example.myapplication.AddBook"
+33-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:26:17-40
+34            android:parentActivityName="com.example.myapplication.List" />
+34-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:27:17-51
+35        <activity
+35-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:28:9-30:61
+36            android:name="com.example.myapplication.List"
+36-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:29:17-37
+37            android:parentActivityName="com.example.myapplication.MainActivity" />
+37-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:30:17-59
+38        <activity
+38-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:31:9-39:20
+39            android:name="com.example.myapplication.MainActivity"
+39-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:32:17-45
+40            android:exported="true" >
+40-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:33:17-40
+41            <intent-filter>
+41-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:34:13-38:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:35:17-68
+42-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:35:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:37:17-76
+44-->D:\Users\widzi\Pulpit\Projekt tuim\MyApplication\app\src\main\AndroidManifest.xml:37:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.myapplication.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\widzi\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\widzi\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\widzi\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\widzi\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
